@@ -1,5 +1,11 @@
 import React from "react";
+import "../App.css";
 
 export function Header() {
-  return <h1>Header</h1>;
+  return (
+    <header id="top">
+      <h1>Hello, and Welcome to Blueberry Pediatrics</h1>
+      <p>Please complete the survey below for your child.</p>
+    </header>
+  );
 }
